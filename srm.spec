@@ -1,5 +1,5 @@
 Summary:	srm - secure replacement for rm
-Summary(pl):	srm - bezpieczny zamiennik dl rm
+Summary(pl):	srm - bezpieczny zamiennik dla rm
 Name:		srm
 Version:	1.2.8
 Release:	1
