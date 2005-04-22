@@ -19,6 +19,12 @@ although it's unlikely that it can completely prevent that type of
 recovery. It is, essentially, a paper shredder for sensitive files.
 
 %description -l pl
+srm to bezpieczny zamiennik rm. W przeciwieñstwie do zwyk³ego rm
+nadpisuje dane w plikach docelowych przed ich usuniêciem. Zapobiega to
+odtworzeniu danych poprzez badanie surowego urz±dzenia blokowego. Mo¿e
+tak¿e pomóc fizycznemu badaniu dysku, ale jest ma³o prawdopodobne, ¿e
+zapobiegnie odtworzeniu w ten sposób. Jest to co¶ w rodzaju niszczarki
+do dokumentów dla wra¿liwych plików.
 
 %prep
 %setup -q
@@ -40,4 +46,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README Credits
 %attr(755,root,root) %{_bindir}/*
-%attr(755,root,root) %{_bindir}/man1/*
+%{_mandir}/man1/*
