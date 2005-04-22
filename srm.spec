@@ -22,9 +22,9 @@ recovery. It is, essentially, a paper shredder for sensitive files.
 srm to bezpieczny zamiennik rm. W przeciwieñstwie do zwyk³ego rm
 nadpisuje dane w plikach docelowych przed ich usuniêciem. Zapobiega to
 odtworzeniu danych poprzez badanie surowego urz±dzenia blokowego. Mo¿e
-tak¿e pomóc fizycznemu badaniu dysku, ale jest ma³o prawdopodobne, ¿e
-zapobiegnie odtworzeniu w ten sposób. Jest to co¶ w rodzaju niszczarki
-do dokumentów dla wra¿liwych plików.
+tak¿e pomóc w udaremnieniu fizycznego badania dysku, ale jest ma³o
+prawdopodobne, ¿e zapobiegnie odtworzeniu w ten sposób. Jest to co¶ w
+rodzaju niszczarki do dokumentów dla wra¿liwych plików.
 
 %prep
 %setup -q
