@@ -1,5 +1,5 @@
 Summary:	srm - secure replacement for rm
-Summary(pl):	srm - bezpieczny zamiennik dla rm
+Summary(pl.UTF-8):   srm - bezpieczny zamiennik dla rm
 Name:		srm
 Version:	1.2.8
 Release:	1
@@ -18,13 +18,13 @@ device. It may also help frustrate physical examination of the disk,
 although it's unlikely that it can completely prevent that type of
 recovery. It is, essentially, a paper shredder for sensitive files.
 
-%description -l pl
-srm to bezpieczny zamiennik rm. W przeciwieÒstwie do zwyk≥ego rm
-nadpisuje dane w plikach docelowych przed ich usuniÍciem. Zapobiega to
-odtworzeniu danych poprzez badanie surowego urz±dzenia blokowego. Moøe
-takøe pomÛc w udaremnieniu fizycznego badania dysku, ale jest ma≥o
-prawdopodobne, øe zapobiegnie odtworzeniu w ten sposÛb. Jest to co∂ w
-rodzaju niszczarki do dokumentÛw dla wraøliwych plikÛw.
+%description -l pl.UTF-8
+srm to bezpieczny zamiennik rm. W przeciwie≈Ñstwie do zwyk≈Çego rm
+nadpisuje dane w plikach docelowych przed ich usuniƒôciem. Zapobiega to
+odtworzeniu danych poprzez badanie surowego urzƒÖdzenia blokowego. Mo≈ºe
+tak≈ºe pom√≥c w udaremnieniu fizycznego badania dysku, ale jest ma≈Ço
+prawdopodobne, ≈ºe zapobiegnie odtworzeniu w ten spos√≥b. Jest to co≈õ w
+rodzaju niszczarki do dokument√≥w dla wra≈ºliwych plik√≥w.
 
 %prep
 %setup -q
