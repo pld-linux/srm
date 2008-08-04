@@ -1,12 +1,12 @@
 Summary:	srm - secure replacement for rm
 Summary(pl.UTF-8):	srm - bezpieczny zamiennik dla rm
 Name:		srm
-Version:	1.2.8
+Version:	1.2.9
 Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/srm/%{name}-%{version}.tar.gz
-# Source0-md5:	66ba49b1864a7c69763210dbc3efee33
+# Source0-md5:	7c65937cb9a7af75d1ab6d0927c6a2cc
 URL:		http://srm.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -44,6 +44,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README Credits
+%doc AUTHORS ChangeLog NEWS README TODO
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
